@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="flex items-center h-[80px] bg-[#111e4b]">
+      <img class="h-[50px] px-[150px]" src="img/logo.png" alt="" />
+
+      <div class="flex h-[30px] mx-[200px] w-[300px] border border-yellow-600">
+        <div class="text-yellow-600 pl-[3px]">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="pl-[7px]">
+          <input type="text" class="bg-transparent text-white" />
+        </div>
+      </div>
+
+      <div>
+        <ul class="md:flex px-200px]">
+          <li class="mx-8">
+            <i class="fa-solid fa-user text-white "></i>
+            <a href="#" class="text-white">Account</a>
+          </li>
+          <li class="mx-8">
+            <i class="fa-solid fa-heart text-white "></i>
+            <a href="#" class="text-white">Favorites</a>
+          </li>
+          <li class="mx-8">
+            <i class="fa-solid fa-cart-shopping text-white"></i>
+            <a href="#" class="text-white">Shopping</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <div class="flex bg-[#0c1225] justify-between">
+      <div class="md:flex p-6 mx-5 mt-5 justify-left font-sans">
+        <a href="#" class="py-5 px-3 text-white hover:text-yellow-600">A Propos </a>
+        <a href="#" class="py-5 px-3 text-white hover:text-yellow-600">Catalogue </a>
+        <a href="#" class="py-5 px-3 text-white hover:text-yellow-600">Rachat</a>
+        <a href="#" class="py-5 px-3 text-white hover:text-yellow-600">News </a>
+        <a href="#" class="py-5 px-3 text-white hover:text-yellow-600">Evenements</a>
+      </div>
+    </div>
+
+    <!-- Content Page -->
+    <div class="flex bg-[#0c1225] h-[550px]">
+      <div class="mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2 ">
+        <div class="py-100">
+          <h1 class="text-6xl text-white font-bold ">Achetere, revendre & collectioner</h1>
+          <p class="text-white text-justify font-sans mt-5">
+            The walnut wood card tray is precision milled to perfectly fit a stack of Focus cards. The powder coated steel divider separates active cards from new ones, or can be used to archive important task lists.
+          </p>
+        </div>
+        <div class="flex px-10 gap-5 ">
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-[#121a36] max-w-sm ">
+              <a href="#!">
+                <img class="rounded-t-lg" src="img/img1.jpg" alt=""/>
+              </a>
+              <div class="p-6 ">
+                <div class="badge badge-warning">Hot</div>
+                <h5 class="text-white text-xl font-medium mb-2 ">Mewtwo</h5>
+                <div class="flex">
+                  <p class="text-white/50 text-base mb-4">
+                    Price
+                  </p>
+                  <p class="text-white text-xl font-medium pl-36">
+                    8.75€
+                  </p>
+                </div>
+                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-[#121a36] max-w-sm">
+              <a href="#!">
+                <img class="rounded-t-lg" src="img/img2.png" alt=""/>
+              </a>
+              <div class="p-6">
+                <div class="badge badge-warning">Hot</div>
+                <h5 class="text-white text-xl font-medium mb-2">Pikachu</h5>
+                <div class="flex">
+                  <p class="text-white/50 text-base mb-4">
+                    Price
+                  </p>
+                  <p class="text-white text-xl font-medium pl-36">
+                    8.75€
+                  </p>
+                </div>
+                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" flex max-w-xs text-sm breadcrumbs text-white">
+          <ul>
+            <li>Product 1</li>
+            <li>Product 2</li>
+            <li>Product 3</li>
+            <li>Product 4</li>
+            <li>Product 5</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Content Page -->
+
+    <!-- Product -->
+    <div class="bg-[#121a36] h-[600px] ">
+      <div class="mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2 ">
+        <div class="py-10">
+          <h1 class="text-6xl text-white font-bold ">Product</h1>
+          <p class="text-white mt-5">
+            Lorean ipsun dolor sit aneat, conseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea eat dolorea nagna aliqua.
+            Ut eanin ad ninin veanian, quis nostrun eaxearcitationean ullan corporis suscipit laboriosan, nisi ut aliquid eax eaa connodi conseaquatur.
+          </p>
+        </div>
+      </div>
+  
+      <div class="flex max-w-10xl mx-40 gap-8">
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/p1.png" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold"> Pokemon Lets Go</h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/p2.png" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold"> Magic The Gathering </h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/p3.png" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold"> Yu Gi Oh </h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/p4.png" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold"> Dragon Shield </h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Product -->
+
+    <!-- New Collection -->
+    <div class="bg-[#0c1225] h-[800px]">
+      <div class="mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2 ">
+        <div class="py-10">
+          <h1 class="text-6xl text-white font-bold ">New Collection</h1>
+          <p class="text-white mt-5">
+            Lorean ipsun dolor sit aneat, conseacteatur adipisci ealit, sead eaiusnod teanpor incidunt ut laborea eat dolorea nagna aliqua.
+            Ut eanin ad ninin veanian, quis nostrun eaxearcitationean ullan corporis suscipit laboriosan, nisi ut aliquid eax eaa connodi conseaquatur.
+          </p>
+        </div>
+        <div class="flex h-[30px] mx-[600px] w-[100px] mt-10 border border-yellow-600">
+          <div class="flex text-yellow-600 pl-[10px]">
+            <p>More</p>
+            <i class="fa-solid fa-arrow-right pl-[15px] py-2 "></i>
+          </div>
+        </div>
+      </div> 
+      <div class="flex max-w-6xl mx-60 gap-8 py-5">
+        <div class="flex">
+          <div class="bg-white/5 rounded-lg px-4">
+              <i class="fa-regular fa-heart text-yellow-600 py-2 ml-56"></i>
+            <a href="#!">
+              <img class="rounded-t-lg" src="img/img1.jpg" alt=""/>
+            </a>
+            <div class="p-4">
+              <h5 class="text-white text-xl font-medium mb-2">Mewtwo</h5>
+              <p class="text-white/50 text-base mb-4">
+                Get this Item
+              </p>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="bg-white/5 rounded-lg px-4">
+              <i class="fa-solid fa-heart text-yellow-600 py-2 ml-56"></i>
+            <a href="#!">
+              <img class="rounded-t-lg" src="img/img1.jpg" alt=""/>
+            </a>
+            <div class="p-4">
+              <h5 class="text-white text-xl font-medium mb-2">Mewtwo</h5>
+              <p class="text-white/50 text-base mb-4">
+                Get this Item
+              </p>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="bg-white/5 rounded-lg px-4">
+              <i class="fa-regular fa-heart text-yellow-600 py-2 ml-56"></i>
+            <a href="#!">
+              <img class="rounded-t-lg" src="img/img1.jpg" alt=""/>
+            </a>
+            <div class="p-4">
+              <h5 class="text-white text-xl font-medium mb-2">Mewtwo</h5>
+              <p class="text-white/50 text-base mb-4">
+                Get this Item
+              </p>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="bg-white/5 rounded-lg px-4">
+              <i class="fa-regular fa-heart text-yellow-600 py-2 ml-56"></i>
+            <a href="#!">
+              <img class="rounded-t-lg" src="img/img1.jpg" alt=""/>
+            </a>
+            <div class="p-4">
+              <h5 class="text-white text-xl font-medium mb-2">Mewtwo</h5>
+              <p class="text-white/50 text-base mb-4">
+                Get this Item
+              </p>
+              <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Pre Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End New Collection -->
+
+    <!-- Event -->
+    <div class="bg-[#121a36] h-[600px]">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-8 gap-x-8 py-11 px-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
+        <img src="img/e1.png" alt="" class="rounded-sm  bg-gray-100">
+        <div>
+          <h1 class="font text-4xl font-bold tracking-tight text-white sm:text-6xl">Our Events</h1>
+          <p class="mt-4 text-gray-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab et nobis veniam magnam, exercitationem labore quos asperiores consectetur odio id eos quis impedit at dignissimos, beatae necessitatibus error rem laudantium.</p>
+          <div class="flex text-yellow-600 pl-[10px] border border-yellow-600 mx-[35px] w-[200px] mt-10">
+            <p>See Upcoming Events</p>
+            <i class="fa-solid fa-arrow-right pl-[15px] py-2 "></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<div class="bg-[#121a36] h-[600px]">
+      <div class="flex justify-center">
+        <div class="flex flex-col md:flex-row md:max-w-2xl rounded-lg bg-white/10 shadow-lg">
+          <img class=" w-full h-200 md:h-auto object-cover md:w-60 rounded-t-lg md:rounded-none md:rounded-l-lg" src="img/e1.png" alt="" />
+          <div class="p-6 flex flex-col justify-start">
+            <h1 class="text-white text-xl font-medium mb-2">Our Events</h1>
+            <p class="text-white text-base mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore sunt veniam sapiente repellendus numquam itaque, alias corrupti? Magni perspiciatis praesentium quae veniam est accusamus, eveniet placeat. Error dicta repudiandae deserunt!
+            <p class="text-white text-xs">Last updated 3 mins ago</p>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!-- End Event -->
+
+    <!-- About Us -->
+    <div class="flex bg-[#0c1225] h-[700px]">
+      <div class="mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2 gap-10">
+        <div class="">
+          <h1 class="text-6xl text-white font-bold ">About Us</h1>
+          <p class="text-white text-justify font-sans mt-5">The
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque doloribus odit alias voluptate, amet iusto consectetur nisi autem laborum maxime dolorum ut perspiciatis, quam neque quidem fugit delectus placeat officia?
+          </p>
+          <div class="flex text-yellow-600 pl-[10px] border border-yellow-600 mx-[400px] w-[150px] mt-10">
+            <p>Know More</p>
+            <i class="fa-solid fa-arrow-right pl-[15px] py-2 "></i>
+          </div>
+        </div>
+        <div>
+          <img src="img/img3.png" alt="" class="rounded-lg h-[300px] bg-gray-100">
+          <img src="img/e1.png" alt="" class="rounded-lg h-[300px] mt-10 mx-96 bg-gray-100">
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#0c1225] h-[400px] ">
+      <div class="flex max-w-10xl mx-40 gap-8 py-10">
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/#" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold">Service Client</h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/#" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold">Secure Payments</h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/#" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold">Express Delivery</h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+  
+        <div class="bg-white/5 p-6 rounded-lg">
+          <img src="img/#" alt="" class="h-20 mx-auto"/>
+          <h4 class="uppercase text-center text-white font-bold">click & collect</h4>
+          <p class="text-sm leading-7 my-3 text-white justify-center">
+            Catching Pokémon is one way to collect them! You can also collect them by hatching Eggs and trading with other Trainers.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- News Letter -->
+    <div class="flex bg-[#121a36] h-[420px]">
+      <div class="mx-40 items-center grid max-w-2xl grid-cols-1 lg:max-w-7xl lg:grid-cols-2 gap-12">
+        <div class="">
+          <h1 class="text-6xl text-white font-bold ">Newsletter</h1>
+          <p class="text-white text-justify font-sans mt-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque doloribus odit alias voluptate, amet iusto consectetur nisi autem laborum maxime dolorum ut perspiciatis, quam neque quidem fugit delectus placeat officia?
+          </p>
+        </div>
+        <div class="alert shadow-lg">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info flex-shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <i class="fa-solid fa-envelope"></i>
+            <span>Your Email Address</span>
+          </div>
+            <button class="btn btn-sm btn-warning">Subscribe</button>
+        </div>  
+      </div>
+    </div>
+    <!-- End News Letter -->
+
+    <div class="bg-yellow-500 h-[80px]">
+      <div class="text-center p-6">
+        <h1 class="text-2xl text-white  font-bold ">Back to the top</h1>
+      </div>
+    </div>
+
+    <!--footer-->
+      <footer class="footer p-10 bg-[#0c1225] text-white">
+        <div>
+          <img class="h-[50px] px-[120px]" src="img/logo.png" alt="" />
+          <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div>
+          <span class="footer-title">Services</span> 
+          <a class="link link-hover">Branding</a> 
+          <a class="link link-hover">Design</a> 
+          <a class="link link-hover">Marketing</a> 
+          <a class="link link-hover">Advertisement</a>
+        </div> 
+        <div>
+          <span class="footer-title">Company</span> 
+          <a class="link link-hover">About us</a> 
+          <a class="link link-hover">Contact</a> 
+          <a class="link link-hover">Jobs</a> 
+          <a class="link link-hover">Press kit</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        <div>
+          <span class="footer-title">Legal</span> 
+          <a class="link link-hover">Terms of use</a> 
+          <a class="link link-hover">Privacy policy</a> 
+          <a class="link link-hover">Cookie policy</a>
+        </div> 
+        
+  
+      </footer>
+
+
+    <!--End Footer-->
+
+
+
+
+    
+
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
